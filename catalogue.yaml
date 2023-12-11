@@ -28,6 +28,6 @@
 
   - name: print the directory stats
     ansible.builtin.debug:
-    msg: "output is {{directory}}"
+     msg: "output is {{directory}}"
 
 
