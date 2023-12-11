@@ -42,5 +42,11 @@
      dest: /tmp
      
 
+  - name: extract catlogue artifact
+    ansible.builtin.unarchive:
+      src: /tmp/catalogue.zip
+      dest: /app
+
+
 
 
