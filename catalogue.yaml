@@ -27,7 +27,7 @@
     register: directory
 
   - name: print the directory stats
-   ansible.builtin.debug:
+    ansible.builtin.debug:
     msg: "output is {{directory}}"
 
-    
+
