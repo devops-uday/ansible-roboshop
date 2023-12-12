@@ -22,4 +22,9 @@ mysql.devopsuday.online
 [shipping]
 shipping.devopsuday.online
 
+[rabbitmq]
+rabbitmq.devopsuday.online
+
+
+
 
