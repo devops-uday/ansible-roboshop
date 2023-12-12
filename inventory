@@ -25,6 +25,9 @@ shipping.devopsuday.online
 [rabbitmq]
 rabbitmq.devopsuday.online
 
+[payment]
+payment.devopsuday.online
+
 
 
 
