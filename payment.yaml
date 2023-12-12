@@ -11,10 +11,10 @@
     - gcc
     - python3-devel
 
-   - name: check the roboshop user exist or not
+  - name: check the roboshop user exist or not
     ansible.builtin.command: id roboshop
-    register: output #output is variable name
-    ignore_errors: true
+      register: output #output is variable name
+      ignore_errors: true
 
   - name: create user roboshop
     become: yes #we need sudo access for this task only
@@ -62,4 +62,3 @@
       name: payment
       state: restarted
       enabled: true
-      
