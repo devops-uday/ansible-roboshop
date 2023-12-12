@@ -12,3 +12,6 @@ redis.devopsuday.online
 
 [user]
 user.devopsuday.online
+
+[cart]
+cart.devopsuday.online
