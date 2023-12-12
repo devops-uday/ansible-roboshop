@@ -6,3 +6,6 @@ catalogue.devopsuday.online
 
 [web]
 web.devopsuday.online
+
+[redis]
+redis.devopsuday.online
