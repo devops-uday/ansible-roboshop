@@ -70,7 +70,7 @@
       state: installed
 
   - name: load MYSQL schema
-    ansible.builtin.command: mysql -h mysql.devopsuday.online -uroot -pRoboShop@1 < /app/schema/shipping.sql 
+    ansible.builtin.shell: mysql -h mysql.devopsuday.online -uroot -pRoboShop@1 < /app/schema/shipping.sql 
 
   - name: start and enable shipping
     ansible.builtin.service:
